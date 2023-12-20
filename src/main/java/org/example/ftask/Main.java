@@ -7,7 +7,7 @@ public class Main {
         User user = CreateUser.builder().name("Oles")
                 .age(32)
                 .gender(Gender.valueOf("MALE"))
-                .grades(List.of(99, 98))
+                .grades(List.of(61, 62))
                 .build();
         System.out.println(user);
     }

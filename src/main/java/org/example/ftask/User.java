@@ -4,11 +4,6 @@ import lombok.Getter;
 import lombok.ToString;
 import lombok.experimental.SuperBuilder;
 
-
-enum Gender {
-    MALE, FEMALE
-}
-
 @Getter
 @SuperBuilder @ToString
 public class User {
@@ -18,7 +13,8 @@ public class User {
     private double weight;
     private double height;
 
-//    public User(String name, int age, Gender gender, double weight, double height) {
+//    public User(String name, int age, Gender gender,
+//    double weight, double height) {
 //        this.name = name;
 //        this.gender = gender;
 //        this.age = age;
